@@ -1,1 +1,20 @@
 /* Add CSS Styling */
+.first {
+    background-color: rgb(255, 109, 109);
+    font-family: 'Verdana', 'DejaVu Sans', sans-serif;
+}
+
+#seconID {
+    color: rgb(39, 16, 238);
+    font-size: 36px;
+}
+
+.first.third {
+    font-size: 24px;
+}
+
+#another {
+    background-color: rgb(151, 247, 147);
+    font-weight: bold;
+    font-size: 24px;
+}
