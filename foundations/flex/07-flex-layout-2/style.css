@@ -27,8 +27,7 @@ body {
   background: royalblue;
   box-sizing: border-box;
   padding: 16px;
-  flex: 0 0 300px;
-  min-width: 300px;
+  flex-shrink: 0;
 }
 
 ul, a {
@@ -48,11 +47,9 @@ li {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  flex: 1 1 300px;
   padding: 12px;
-  min-height: 250px;
-  min-width: 300px;
-  max-width: 400px;
+  width: 300px;
+  padding: 16px;
 }
 
 .header, .footer {
@@ -63,20 +60,12 @@ li {
 .content {
   display: flex;
   flex: 1;
-  width: 100%;
-}
-
-.adspace {
-  flex-shrink: 3;
-  flex-basis: 200px;
-  width: 300px;
 }
 
 .cardContainer {
   display: flex;
   flex-wrap: wrap;
-  flex: 2 0 800px;
+  flex: 1;
   padding: 48px;
-  justify-content: space-around;
   gap: 24px;
 }
